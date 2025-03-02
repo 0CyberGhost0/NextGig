@@ -40,8 +40,17 @@ import covid_guy from "@/assets/images/covid_guy.png";
 import jobtype from "@/assets/icons/jobtype.png";
 import table_guy from "@/assets/images/table_guy.png";
 import salary from "@/assets/icons/salary.png";
+import vacant from "@/assets/images/vacant.png";
+import pdf from "@/assets/images/pdf.png";
+import phone from "@/assets/icons/phone.png";
+import locationpin from "@/assets/icons/locationpin.png";
+import email1 from "@/assets/icons/email1.png";
+import rocket from "@/assets/icons/rocket.png";
 export const icons = {
+  email1,
   salary,
+  rocket,
+  locationpin,
   email,
   plus,
   lock,
@@ -76,12 +85,15 @@ export const icons = {
   downarrow,
   profilepic,
   locationtarget,
+  phone,
 };
 export const images = {
   jobsearch,
   onboarding1,
   onboarding2,
   onboarding3,
+  vacant,
+  pdf,
   table_guy,
   laptop_guy,
   templogo,
@@ -371,3 +383,18 @@ export const recommendedJob = [
     ],
   },
 ];
+
+export const searchJobTile = {
+  id: 1,
+  title: "Find Your Dream Job with Ease!",
+  description:
+    "Discover top job opportunities that match your skills and aspirations.",
+  image: images.vacant,
+  style: {
+    height: 240,
+    width: 130,
+    marginBottom: 33,
+    transform: [{ rotate: "0deg" }],
+    marginRight: 20,
+  },
+};

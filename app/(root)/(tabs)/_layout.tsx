@@ -50,7 +50,7 @@ const Layout = () => {
     >
       {[
         { name: "explore", icon: icons.explore, title: "Explore" },
-        { name: "search", icon: icons.search, title: "Search" },
+        { name: "search", icon: icons.rocket, title: "Search" },
         { name: "message", icon: icons.message, title: "Message" },
         { name: "profile", icon: icons.profile, title: "Profile" },
       ].map(({ name, icon, title }) => (
